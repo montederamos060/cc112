@@ -1,0 +1,14 @@
+// Program #12: Vote Elligibility Verifier
+
+#include <iostream>
+using namespace std;
+
+int main() { 
+int age;
+cout<<"Please enter your age: ";
+cin>>age;
+if(age > 17)
+cout<<"You are eligible to vote. Your age is "<<age<<" years old.\n";
+else
+cout<<"Sorry! you are not eligible to vote!";
+}
