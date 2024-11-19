@@ -1,0 +1,37 @@
+// Program #14: Personal Calendar
+
+#include <iostream>
+using namespace std;
+
+int main() { 
+int number;
+cout<<"Enter the number of month: ";
+cin>>number;
+if(number >= 1 && number <= 12) {
+if(number == 1)
+cout<<"1 is January - the month of new beginnings.\n\n";
+else if(number == 2)
+cout<<"2 is February - the month of love.\n\n";
+else if(number == 3)
+cout<<"3 is March - the month of Graduation.\n\n";
+else if(number == 4)
+cout<<"4 is April - the month of summer.\n\n";
+else if(number == 5)
+cout<<"5 is May - the month of relaxation.\n\n";
+else if(number == 6)
+cout<<"6 is June - the month of classes.\n\n";
+else if(number == 7)
+cout<<"7 is July - the month of meeting.\n\n";
+else if(number == 8)
+cout<<"8 is August - the month of harkworking.\n\n";
+else if(number == 9)
+cout<<"9 is September - the month of exams.\n\n";
+else if(number == 10)
+cout<<"10 is October - the month of celebration.\n\n";
+else if(number == 11)
+cout<<"11 is November - the month of souls.\n\n";
+else if(number == 12)
+cout<<"12 is December - the month of giving.\n\n";
+}else
+cout<<"Error: the input is invalid.\n\n";
+}
