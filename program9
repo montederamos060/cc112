@@ -1,0 +1,12 @@
+// Program #09: Defined Age and height
+
+#include <iostream>
+using namespace std;
+
+int main() {
+int age;
+float height;
+age = 21;
+height = 1.73;
+cout<<"Ace is "<<age<<" year old and his height is "<<height<<" meters.\n";
+}
